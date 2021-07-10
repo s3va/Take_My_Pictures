@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Take My Pictures</string>
+    <string name="d_link_ip_cammera">D-Link IP Cammera</string>
+    <string name="web_camera">Web Camera</string>
+    <string name="ip_camera_url">ip camera url</string>
+    <string name="web_camera_url">Web Camera URL</string>
+    <string name="wcamurl">webcamurl</string>
+    <string name="ipcamurl">ipcamurl</string>
+</resources>

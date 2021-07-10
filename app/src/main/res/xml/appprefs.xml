@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:id="@+id/pidwebcamurl"
+        app:key="@string/wcamurl"
+        android:selectAllOnFocus="true"
+        app:singleLine="true"
+        app:useSimpleSummaryProvider="true"
+        android:title="Web Camera Url" />
+    <EditTextPreference
+        android:id="@+id/pidipcamurl"
+        app:defaultValue="Default value"
+        app:key="@string/ipcamurl"
+        android:selectAllOnFocus="true"
+        app:singleLine="true"
+        app:useSimpleSummaryProvider="true"
+        app:title="Ip Camera Url" />
+</androidx.preference.PreferenceScreen>
